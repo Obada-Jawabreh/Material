@@ -43,7 +43,7 @@ const Register = () => {
 
       if (response.status === 200) {
         Swal.fire("Success", response.message, "success");
-        navigate("/login");
+        navigate("/");
       } else {
         Swal.fire(
           "Error",
@@ -160,7 +160,7 @@ const Register = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-[#46B1C1] text-white py-2 rounded-lg hover:bg-[#3d9b9b] transition-colors duration-200"
+            className="w-full bg-[#2960EC] text-white py-2 rounded-lg hover:bg-[#17398EEE] transition-colors duration-200"
           >
             Register
           </button>
@@ -168,7 +168,7 @@ const Register = () => {
         <div className="text-center mt-4">
           <p className="text-sm text-[#7B7979]">
             Already have an account?{" "}
-            <a href="/login" className="text-[#46B1C1] hover:underline">
+            <a href="/" className="text-[#2960EC] hover:underline">
               Login
             </a>
           </p>

@@ -29,10 +29,15 @@ const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#f0f4f8]">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
-        <h2 className="text-center text-2xl font-semibold text-[#181d27] mb-6">Login</h2>
+        <h2 className="text-center text-2xl font-semibold text-[#181d27] mb-6">
+          Login
+        </h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-[#7B7979] text-sm font-medium" htmlFor="email">
+            <label
+              className="block text-[#7B7979] text-sm font-medium"
+              htmlFor="email"
+            >
               Email
             </label>
             <input
@@ -45,7 +50,10 @@ const Login = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block text-[#7B7979] text-sm font-medium" htmlFor="password">
+            <label
+              className="block text-[#7B7979] text-sm font-medium"
+              htmlFor="password"
+            >
               Password
             </label>
             <input
@@ -59,7 +67,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-[#46B1C1] text-white py-2 rounded-lg hover:bg-[#3d9b9b] transition-colors duration-200"
+            className="w-full bg-[#2960EC] text-white py-2 rounded-lg hover:bg-[#17398EEE] transition-colors duration-200"
           >
             Login
           </button>
@@ -67,7 +75,7 @@ const Login = () => {
         <div className="text-center mt-4">
           <p className="text-sm text-[#7B7979]">
             Don't have an account?{" "}
-            <a href="/register" className="text-[#46B1C1] hover:underline">
+            <a href="/register" className="text-[#2960EC] hover:underline">
               Register
             </a>
           </p>
